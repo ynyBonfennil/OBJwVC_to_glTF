@@ -22,7 +22,7 @@ $ python ./OBJwVC_to_gltf.py {input file path} {output file path}
 
 ## Parameters
 
-### Export as glb (On / Off)
+### Export as glTF or glb
 
 This script supports exporting glb along with glTF and its bin file. This script detects the file extention you select as the output file path, and exports the selected format.
 
