@@ -24,7 +24,7 @@ $ python ./OBJwVC_to_gltf.py {input file path} {output file path}
 
 ### Export as glb (On / Off)
 
-This script supports exporting glb along with glTF and its bin file. You can switch between these two by editing `EXPORT_AS_GLB = True / False` at the top of the script.
+This script supports exporting glb along with glTF and its bin file. This script detects the file extention you select as the output file path, and exports the selected format.
 
 ### sRGB to Linear RGB (On / Off)
 
